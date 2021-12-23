@@ -1,0 +1,91 @@
+#navbar ul{
+  float: none;
+}
+#navbar ul li{
+  float: none;
+}
+#navbar ul li a{
+  
+  border-bottom: dotted white 1px;
+}
+#navbar ul li a.k:hover,
+#navbar li a.current.k{
+  border-bottom: dotted #fe9c8f 1px;
+}
+
+#navbar li a:hover,
+#navbar li a.current 
+{
+  background-color:white;
+  color:#fe9c8f;
+  padding: 15px;}
+#showcase .showcase-content h1{
+    font-size: 50px;
+  }
+#showcase .showcase-content p {
+    font-size:20px ;}
+
+#showcase .showcase-content{
+  padding-top: 60px;
+}
+
+}
+#showcase .showcase-content p {
+  font-size:25px ;
+  padding: 0 5px ;
+}
+
+#showcase .showcase-content a {
+padding-bottom: 40px;
+} 
+.box{
+  display: block;
+  width: 100%;
+}
+.box1{
+  padding-top: 20px;
+}
+#glavni2{
+  overflow: hidden;
+  height: auto;
+}
+#glavni2 .link{
+  margin:auto;
+  text-align: center;
+  display: block;
+  float: none;
+}
+#galerija{
+  text-align: center;
+  overflow: hidden;
+}
+
+#galerija .btn2
+{
+  display: block; 
+  margin: auto;
+  float: none;
+  text-align: center;
+}
+
+#kontakt-strana .container2
+{
+  text-align: center;
+}
+
+/* #glavni2 .link{
+  padding: 10px 20px;
+   font-size:10px;
+   display: block;
+   float: none;
+   margin: 0;
+} */
+/* #glavni2 .link{
+  padding: 10px 20px;
+  font-size:10px;
+  display: block;
+  float: none;
+  margin: 0;
+} */
+
+

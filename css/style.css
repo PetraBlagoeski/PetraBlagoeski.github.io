@@ -1,0 +1,244 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+.container{
+  margin: auto;
+  max-width: 2000px;
+  overflow: auto;
+  text-align: center;
+
+  
+}
+html, body{
+  font-size: 20px;
+  font-family:Dancing Script;
+  line-height: 1.7em;
+  
+}
+a{
+  color:white;
+  text-decoration: none;
+}
+h1, h2, h3{
+  padding-bottom: 20px;
+}
+h1{
+  font-size: 60px;
+}
+p{
+  margin: 10px 0;
+}
+#navbar{
+  background-color:#fe9c8f ;
+  color:white;
+  overflow: auto;
+}
+/* #navbar li {
+  display:inline;
+  float:right;
+  padding: 20px;
+}
+#navbar li{
+  padding: 20px;
+}*/
+#navbar ul{
+  list-style: none;
+  float: right;
+}
+#navbar ul li{
+  float: left;
+}
+#navbar ul li a{
+  display: block;
+  padding: 15px;
+  text-align: center;
+}
+#navbar li a:hover,
+#navbar li a.current 
+{
+  background-color:white;
+  color:#fe9c8f;
+  padding: 15px;}
+#showcase {
+    background:url('../img/main.jpg');
+    background-position: center center;
+    box-sizing: cover;
+   
+
+  }
+#showcase .showcase-content{
+  color:white;
+  padding-top: 150px;
+  }
+  
+#showcase .showcase-content h1{
+    font-size: 60px;
+    line-height: 1.2em;
+  }
+#showcase .showcase-content p {
+    font-size:25px ;
+  }
+#showcase .showcase-content a{
+    font-size: 35px;
+    display: inline-block;
+    padding:20px 10px;
+    
+  }
+#showcase .showcase-content a:hover{
+    font-size: 35px;
+    background-color:white;
+    color:#fe9c8f;
+    padding:20px 10px;
+    border: none;
+  }
+#glavni{
+    background-color: #fe9c8f;
+    color: white;
+  }
+  /* .box1, .box2, .box3 {
+    display:inline-block;
+    width: 33,3%;
+    padding:20px;
+    text-align: center;
+  } */
+.box{
+    display: inline-block;
+    width: 32.8%;
+    text-align: center;
+    padding: 20px;
+  }
+.box3 p{
+   margin-bottom:0;
+  }
+.box h1 a:hover{
+    background-color:white;
+    color:#fe9c8f;
+    padding:10px ;
+    border: none;
+  }
+footer{
+    text-align: center;
+    font-size: medium;
+    background-color:#ff6b6b ;
+    color: white;
+    overflow: auto;
+  }
+  /* #glavni2{
+    position: relative;
+  } */
+#glavni2{
+    background: url(../img/kap4.jpg);
+    background-position: center center;
+    box-sizing: cover;
+    height: auto;
+    overflow: hidden;
+    
+  }
+     /* #glavni2 .pozadina{
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     opacity:0.6;
+     height: 600px;
+    } */
+  
+#glavni2 .text{
+    text-align: center;
+    padding: 30px;
+    font-size: 25px;
+  }
+  #glavni2 h1{
+   padding-top: 40px;
+  }
+ #glavni2 .link{
+   padding: 20px 40px;
+   font-size:20px;
+   cursor: pointer;
+   background-color:black;
+   display: inline;
+   float: right;
+   margin-right: 100px;
+   margin-bottom: 20px;
+  }
+  #glavni2 .link a{
+   text-align: center;
+   color:#ff6b6b;
+  }
+  #kontakt-strana .container2{
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  #kontakt-strana .container2 h1{
+    margin-bottom: 20px;
+  }
+  #kontakt-strana label{
+    display: block;
+    margin-bottom: 5px;
+  }
+  #kontakt-strana input,
+  #kontakt-strana textarea{
+    width:100%;
+    padding: 10px;
+    border:1px #ddd solid;
+  }
+  #kontakt-strana textarea{
+   height: 200px;  
+  }
+  #kontakt-strana input:focus,
+  #kontakt-strana textarea:focus{
+    outline: none;
+    border-color:#ff6b6b ;
+  }
+  .btn{
+    cursor: pointer;
+    background-color:black;
+    color:#ff6b6b;
+    padding: 20px 40px;
+    font-size: 20px;
+    border:none;
+    
+  }
+  #galerija{
+    background-color:#fec8c1 ;
+  }
+  #galerija h1.h{
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  #galerija img{
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+    border-radius: 50%;
+    background-color:#fec8c1 ;
+
+  }
+  #galerija .btn2{
+    cursor: pointer;
+    background-color:black;
+    color:#ff6b6b;
+    padding: 20px 40px;
+    font-size: 20px;
+    border:none;
+    float:right;
+    display: inline-block;
+    margin-right: 70px;
+    clear: both;
+
+  }
+  .cenovnik{
+    padding: 20px;
+  }
+
+  .h{
+    padding: 20px;
+  }
+  .c{
+    padding: 20px;
+    list-style: none;
+  }
+  
+  
